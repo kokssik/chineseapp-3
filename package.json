@@ -1,0 +1,26 @@
+{
+  "name": "chineseapp3",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.4",
+    "@tauri-apps/cli": "^1.4.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^3.58.0",
+    "svelte-preprocess": "^5.0.3",
+    "svelte-routing": "^1.10.0",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "tauri-plugin-sqlite-api": "github:lzdyes/tauri-plugin-sqlite#v0.1.1"
+  }
+}
