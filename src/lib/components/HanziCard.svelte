@@ -1,12 +1,12 @@
-<script lang="ts">
-  export let character: string;
-  export let pronunciation: string;
-  export let meaning: string;
-  export let strokeOrderImg: string;
-  export let word1: string;
-  export let word2: string;
-  export let meaning1: string;
-  export let meaning2: string;
+<script>
+  export let character;
+  export let pronunciation;
+  export let meaning;
+  export let strokeOrderImg;
+  export let word1;
+  export let word2;
+  export let meaning1;
+  export let meaning2;
 </script>
 
 <div
