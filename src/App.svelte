@@ -17,7 +17,9 @@
     <!-- define the routes here -->
     <Route path="/" component={Home} />
     <Route path="/lekce" component={Lekce} />
-    <Route path="/lekce/:id" component={SingleLekce} />
+    <Route path="/lekce/:id" let:params>
+      <SingleLekce id={params.id} />
+    </Route>
     <Route path="/hanzi" component={Hanzi} />
     <Route path="/admin" component={Admin} />
   </Layout>

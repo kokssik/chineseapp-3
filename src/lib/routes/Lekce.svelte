@@ -3,7 +3,7 @@
 </script>
 
 <div class="grid justify-center">
-  <div class="">
+  <div class="mt-4">
     <div class="font-sans text-4xl font-bold mb-5">Seznam lekcí:</div>
     <Seznam
       nadpis="Lekce 1"

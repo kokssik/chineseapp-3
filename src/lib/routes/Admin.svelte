@@ -81,52 +81,54 @@
   }
 </script>
 
-<h1>Add a new hanzi:</h1>
-<div class="content">
-  <table>
-    <tr>
-      <td><label for="hanzi_insert">Znak:</label></td>
-      <td><input type="text" bind:value={symbol} /></td>
-    </tr>
-
-    <tr>
-      <td><label for="hanzi_insert">Vyslovnost:</label></td>
-      <td><input type="text" bind:value={pronounciation} /></td>
-    </tr>
-    <tr>
-      <td><label for="hanzi_insert">Význam:</label></td>
-      <td><input type="text" bind:value={meaning} /></td>
-    </tr>
-    <tr>
-      <td><label for="hanzi_insert">Slovo 1:</label></td>
-      <td><input type="text" bind:value={word1} /></td>
-    </tr>
-    <tr>
-      <td> <label for="hanzi_insert">Překlad 1:</label></td>
-      <td> <input type="text" bind:value={meaning1} /></td>
-    </tr>
-    <tr>
-      <td> <label for="hanzi_insert">Slovo 2:</label></td>
-      <td> <input type="text" bind:value={word2} /></td>
-    </tr>
-    <tr>
-      <td> <label for="hanzi_insert">Překlad 2:</label></td>
-      <td> <input type="text" bind:value={meaning2} /></td>
-    </tr>
-    <tr>
-      <td> <label for="hanzi_insert">Odeslat</label> </td>
-      <td><button on:click={submit}>Odeslat</button></td>
-    </tr>
-  </table>
-</div>
-
-<h1>Insert markdown into DB:</h1>
-
 <div>
-  <p><label for="markdown_insert">id:</label></p>
-  <input type="text" bind:value={id} />
-  <p><label for="markdown_insert">Markdown code:</label></p>
-  <textarea bind:value={markdown} rows="4" cols="50" />
-  <br />
-  <button on:click={submitMarkdown}>Submit</button>
+  <h1>Add a new hanzi:</h1>
+  <div class="content">
+    <table>
+      <tr>
+        <td><label for="hanzi_insert">Znak:</label></td>
+        <td><input type="text" bind:value={symbol} /></td>
+      </tr>
+
+      <tr>
+        <td><label for="hanzi_insert">Vyslovnost:</label></td>
+        <td><input type="text" bind:value={pronounciation} /></td>
+      </tr>
+      <tr>
+        <td><label for="hanzi_insert">Význam:</label></td>
+        <td><input type="text" bind:value={meaning} /></td>
+      </tr>
+      <tr>
+        <td><label for="hanzi_insert">Slovo 1:</label></td>
+        <td><input type="text" bind:value={word1} /></td>
+      </tr>
+      <tr>
+        <td> <label for="hanzi_insert">Překlad 1:</label></td>
+        <td> <input type="text" bind:value={meaning1} /></td>
+      </tr>
+      <tr>
+        <td> <label for="hanzi_insert">Slovo 2:</label></td>
+        <td> <input type="text" bind:value={word2} /></td>
+      </tr>
+      <tr>
+        <td> <label for="hanzi_insert">Překlad 2:</label></td>
+        <td> <input type="text" bind:value={meaning2} /></td>
+      </tr>
+      <tr>
+        <td> <label for="hanzi_insert">Odeslat</label> </td>
+        <td><button on:click={submit}>Odeslat</button></td>
+      </tr>
+    </table>
+  </div>
+
+  <h1>Insert markdown into DB:</h1>
+
+  <div>
+    <p><label for="markdown_insert">id:</label></p>
+    <input type="text" bind:value={id} />
+    <p><label for="markdown_insert">Markdown code:</label></p>
+    <textarea bind:value={markdown} rows="4" cols="50" />
+    <br />
+    <button on:click={submitMarkdown}>Submit</button>
+  </div>
 </div>
